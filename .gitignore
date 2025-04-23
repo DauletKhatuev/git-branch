@@ -1,0 +1,6 @@
+#Исключим файлы, которые имеют расширение json и jar, кроме file.json
+*.json
+*.jar
+!file.json
+#Исключим файлы tmp1.txt; tmp2.txt; tmp3.txt и т.д.
+tmp?.txt
